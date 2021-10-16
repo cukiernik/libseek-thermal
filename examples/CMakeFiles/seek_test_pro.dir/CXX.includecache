@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/libseek-thermal/examples/seek_test_pro.cpp
+opencv2/highgui/highgui.hpp
+-
+seek.h
+/tmp/libseek-thermal/examples/seek.h
+iostream
+-
+
+src/SeekCam.h
+opencv2/opencv.hpp
+-
+SeekDevice.h
+src/SeekDevice.h
+
+src/SeekDevice.h
+vector
+-
+cstdint
+-
+
+src/SeekThermal.h
+opencv2/opencv.hpp
+-
+SeekCam.h
+src/SeekCam.h
+
+src/SeekThermalPro.h
+opencv2/opencv.hpp
+-
+SeekCam.h
+src/SeekCam.h
+
+src/seek.h
+SeekThermalPro.h
+src/SeekThermalPro.h
+SeekThermal.h
+src/SeekThermal.h
+
